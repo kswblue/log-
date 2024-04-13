@@ -4,8 +4,15 @@
     margin: 0px;
 }
 
+@font-face {
+    font-family: 'JalnanGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #container {
-    background-color: rgb(89, 32, 247);
+    background-color: rgb(23, 123, 216);
     height: 966px;
 }
 
@@ -17,28 +24,53 @@
 #hello {
     height: 80px;
     width: 250px;
-    background-color: yellow;
-    border-radius: 10px;
     text-align: left;
 }
 #textBox {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 100px;
 }
 
 #box1 {
     border: 5px solid rgb(130, 234, 238);
     border-radius: 10px;
+}
+
+#box1Title {
+    margin-top: 10px;
+    margin-left: 5px;
     height: 600px;
     width: 400px;
+    font-family: 'JalnanGothic', cursive;
+    font-size: 15pt;
 }
+
 #box2 {
     border: 5px solid rgb(130, 234, 238);
     border-radius: 10px;
 }
 
+#box2Title {
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 600px;
+    width: 400px;
+    font-family: 'JalnanGothic', cursive;
+    font-size: 15pt;
+}
+
 #box3 {
     border: 5px solid rgb(130, 234, 238);
     border-radius: 10px;
+}
+
+#box3Title {
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 600px;
+    width: 400px;
+    font-family: 'JalnanGothic', cursive;
+    font-size: 15pt;
 }
